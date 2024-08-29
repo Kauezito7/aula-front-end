@@ -24,16 +24,32 @@
         width: 100%;
         max-width: 992px;
         margin: 0 auto;
-        border: 1px solid black;
+        /* border: 3px solid black; */
      }
      .header-flex {
         display: flex;
         justify-content: space-between;
+        align-items: center;
      }
      nav {
         width: 400px;
         height: 100%;
-        border: 3px solid white;    
+        /* border: 3px solid white;     */
+     }
+     h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+
+     }
+     nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 400px;
+        height: 100%;
+
      }
 
 
